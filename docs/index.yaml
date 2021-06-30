@@ -1,35 +1,35 @@
 apiVersion: v1
 entries:
   frog-docs:
-  - apiVersion: v2
-    appVersion: 1.0.0
-    created: "2021-06-29T20:28:44.639830024-05:00"
-    description: A Helm chart for Kubernetes
-    digest: cab0f52163675fa2b741eb8c9679ee2ed2595c1615b1c605e71d4cc71dae931b
-    name: frog-docs
-    type: application
-    urls:
-    - https://insuusvenerati.github.com/charts/frog-docs-0.1.0.tgz
-    version: 0.1.0
+    - apiVersion: v2
+      appVersion: 1.0.0
+      created: "2021-06-29T20:28:44.639830024-05:00"
+      description: A Helm chart for Kubernetes
+      digest: cab0f52163675fa2b741eb8c9679ee2ed2595c1615b1c605e71d4cc71dae931b
+      name: frog-docs
+      type: application
+      urls:
+        - https://insuusvenerati.github.io/charts/frog-docs-0.1.0.tgz
+      version: 0.1.0
   treats-portfolio:
-  - apiVersion: v2
-    appVersion: 8.4.0-develop.1
-    created: "2021-06-29T20:28:44.640664682-05:00"
-    description: A Helm chart for Kubernetes
-    digest: bc7d28331383fb49c12ed8957130ee6f4ac4083a5be3f69fb13a7e7985824549
-    name: treats-portfolio
-    type: application
-    urls:
-    - https://insuusvenerati.github.com/charts/treats-portfolio-0.3.0.tgz
-    version: 0.3.0
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2021-06-29T20:28:44.640244548-05:00"
-    description: A Helm chart for Kubernetes
-    digest: b5138bcd73679cebd0d8b6af53a40571b9a4814b989de6911c936d71a268de0f
-    name: treats-portfolio
-    type: application
-    urls:
-    - https://insuusvenerati.github.com/charts/treats-portfolio-0.1.1.tgz
-    version: 0.1.1
+    - apiVersion: v2
+      appVersion: 8.4.0-develop.1
+      created: "2021-06-29T20:28:44.640664682-05:00"
+      description: A Helm chart for Kubernetes
+      digest: bc7d28331383fb49c12ed8957130ee6f4ac4083a5be3f69fb13a7e7985824549
+      name: treats-portfolio
+      type: application
+      urls:
+        - https://insuusvenerati.github.io/charts/treats-portfolio-0.3.0.tgz
+      version: 0.3.0
+    - apiVersion: v2
+      appVersion: 1.16.0
+      created: "2021-06-29T20:28:44.640244548-05:00"
+      description: A Helm chart for Kubernetes
+      digest: b5138bcd73679cebd0d8b6af53a40571b9a4814b989de6911c936d71a268de0f
+      name: treats-portfolio
+      type: application
+      urls:
+        - https://insuusvenerati.github.io/charts/treats-portfolio-0.1.1.tgz
+      version: 0.1.1
 generated: "2021-06-29T20:28:44.639252858-05:00"
