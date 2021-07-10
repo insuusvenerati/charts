@@ -1,0 +1,16 @@
+kind: pipeline
+type: docker
+name: default
+
+steps:
+  - name: Helm Package
+    image: stiforr/ci-tools
+    commands:
+      - helm package treats-portfolio
+      - cp *.tgz docs/
+      - helm repo index docs --url https://insuusvenerati.github.io/charts/
+
+trigger:
+  event:
+    exclude:
+      - pull_request
